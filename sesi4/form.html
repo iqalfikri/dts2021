@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form HTML</title>
+</head>
+
+<body>
+    <h2>Form Pendaftaran</h2>
+    <form action="" method="POST" name="frmdaftar">
+        Nama Depan :
+        <input type="text" name="txtnama"><br>
+        Name Belakang :
+        <input type="text" name="txtnama2"><br>
+        Password :
+        <input type="password" name="txtpass"><br>
+        Alamat :
+        <textarea name="txtalamat" cols="30" rows="5"></textarea> <br>
+        Olahraga Favorit :
+        <input type="checkbox" name="pilih1" value="sepakbola">Sepakbola &nbsp; &nbsp;
+        <input type="checkbox" name="pilih2" value="bt">Bulu Tangkis &nbsp; &nbsp;
+        <input type="checkbox" name="pilih3" value="tenis">Tenis <br>
+        Jenis Kelamin :
+        <input type="radio" name="jenkel" value="P"> Pria &nbsp;&nbsp;
+        <input type="radio" name="jenkel" value="W"> Wanita &nbsp;&nbsp;<br>
+        Olahraga :
+        <select name="olahraga">
+            <option value="sepakbola">Sepakbola</option>
+            <option value="bulutangkis"> Bulutangkis</option>
+            <option value="tenis" selected="selected">Tenis</option>
+            <option value="tenismeja">Tenis Meja</option>
+        </select>
+        <br>
+        <input type="submit" name="tblSimpan" value="Save">
+        <input type="reset" name="tblreset" value="Reset">
+    </form>
+</body>
+
+</html>

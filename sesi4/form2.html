@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form HTML Muhammad Fikri Haikal</title>
+</head>
+
+<body>
+    <center>
+        <h2>Form Pendaftaran</h2>
+        <form action="" method="POST" name="frmdaftar">
+            <table border="0" width="80%" cellpadding="6" cellspacing="0">
+                <tr>
+                    <td bgcolor="silver" width="25%">Nama Depan</td>
+                    <td width="5%" align="center"> : </td>
+                    <td width="50%"> <input type="text" name="txtnama"></td>
+                </tr>
+                <tr>
+                    <td bgcolor="silver" width="25%"> Name Belakang</td>
+                    <td width="5%" align="center"> : </td>
+                    <td width="50%"><input type="text" name="txtnama2"></td>
+                </tr>
+                <tr>
+                    <td bgcolor="silver" width="25%"> Password </td>
+                    <td width="5%" align="center"> : </td>
+                    <td width="50%"> <input type="password" name="txtpass"></td>
+                </tr>
+                <tr>
+                    <td bgcolor="silver" width="25%"> Alamat </td>
+                    <td width="5%" align="center"> : </td>
+                    <td width="50%"><textarea name="txtalamat" cols="30" rows="5"></textarea></td>
+                </tr>
+                <tr>
+                    <td bgcolor="silver" width="25%"> Olahraga Favorit </td>
+                    <td width="5%" align="center"> : </td>
+                    <td width="50%"><input type="checkbox" name="pilih1" value="sepakbola">Sepakbola &nbsp; &nbsp;
+                        <input type="checkbox" name="pilih2" value="bt">Bulu Tangkis &nbsp; &nbsp;
+                        <input type="checkbox" name="pilih3" value="tenis">Tenis
+                    </td>
+                </tr>
+                <tr>
+                    <td bgcolor="silver" width="25%"> Jenis Kelamin </td>
+                    <td width="5%" align="center"> : </td>
+                    <td width="50%"><input type="radio" name="jenkel" value="P"> Pria &nbsp;&nbsp;
+                        <input type="radio" name="jenkel" value="W"> Wanita &nbsp;&nbsp;
+                    </td>
+                </tr>
+                <tr>
+                    <td bgcolor="silver" width="25%"> Olahraga </td>
+                    <td width="5%" align="center"> : </td>
+                    <td width="50%">
+                        <select name="olahraga">
+                            <option value="sepakbola">Sepakbola</option>
+                            <option value="bulutangkis"> Bulutangkis</option>
+                            <option value="tenis" selected="selected">Tenis</option>
+                            <option value="tenismeja">Tenis Meja</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="3" align="center">
+                        <input type="submit" name="tblSimpan" value="Save">
+                        <input type="reset" name="tblreset" value="Reset">
+                    </td>
+                </tr>
+            </table>
+    </center>
+    </form>
+</body>
+
+</html>
